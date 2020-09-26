@@ -1,3 +1,3 @@
 import { loadScript } from './loader';
 
-loadScript('hello');
+loadScript(location.pathname.slice(1));
