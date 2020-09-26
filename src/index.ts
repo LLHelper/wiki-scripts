@@ -1,3 +1,3 @@
 import { loadScript } from './loader';
 
-loadScript(location.pathname.slice(1));
+loadScript(encodeURIComponent(decodeURI(location.pathname.slice(1))));
