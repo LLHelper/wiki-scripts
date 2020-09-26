@@ -4,7 +4,7 @@ const fs = require('fs');
 const root = path.resolve(__dirname, 'src', 'scripts');
 const entries = fs.readdirSync(root, 'utf8');
 const entry = {
-  script_loader: path.resolve(__dirname, 'src', 'index.ts'),
+  wiki_script: path.resolve(__dirname, 'src', 'index.ts'),
 };
 
 for (const x of entries) {
